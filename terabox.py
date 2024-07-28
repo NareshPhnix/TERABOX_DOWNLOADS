@@ -19,14 +19,14 @@ import pyrogram.utils
 
 pyrogram.utils.MIN_CHANNEL_ID = -1002212612017
 pyrogram.utils.MIN_CHANNEL_ID = -1002220732120
-pyrogram.utils.CHANNEL_ID = 
+pyrogram.utils.CHANNEL_ID = -1002212612017
 pyrogram.utils.MIN_CHANNEL_ID = -1002232462602
-pyrogram.utils.CHANNEL_ID = 
+pyrogram.utils.CHANNEL_ID = -1002232462602
 
 load_dotenv('sconfig.env', override=True)
 logging.basicConfig(level=logging.INFO)
 
-api_id = os.environ.get('TELEGRAM_API', '')
+api_id = os.environ.get('TELEGRAM_API', '28192191')
 if len(api_id) == 0:
     logging.error("TELEGRAM_API variable is missing! Exiting now")
     exit(1)
@@ -35,39 +35,39 @@ id_pattern = re.compile(r'^.\d+$')
 
 ADMINS = "2048030675"
 
-api_hash = os.environ.get('TELEGRAM_HASH', '')
+api_hash = os.environ.get('TELEGRAM_HASH', '663164abd732848a90e76e25cb9cf54a')
 if len(api_hash) == 0:
     logging.error("TELEGRAM_HASH variable is missing! Exiting now")
     exit(1)
     
-bot_token = os.environ.get('BOT_TOKEN', '')
+bot_token = os.environ.get('BOT_TOKEN', '7458046887:AAHJ0_DHcI5-4CfwcyfCsVsTYecRE2EhPRI')
 if len(bot_token) == 0:
     logging.error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
 
 
-dump_id = os.environ.get('DUMP_CHAT_ID', '')
+dump_id = os.environ.get('DUMP_CHAT_ID', '-1002212612017')
 if len(dump_id) == 0:
     logging.error("DUMP_CHAT_ID variable is missing! Exiting now")
     exit(1)
 else:
     dump_id = int(dump_id)
 
-fsub_id = os.environ.get('FSUB_ID', '')
+fsub_id = os.environ.get('FSUB_ID', '-1002232462602')
 if len(fsub_id) == 0:
     logging.error("FSUB_ID variable is missing! Exiting now")
     exit(1)
 else:
     fsub_id = int(fsub_id)
 
-log_id = os.environ.get('LOG_ID', '')
+log_id = os.environ.get('LOG_ID', '-1002220732120')
 if len(log_id) == 0:
     logging.error("LOG_ID variable is missing! Exiting now")
     exit(1)
 else:
     log_id = int(log_id)
 
-DB_URI = os.environ.get('DB_URI', '')
+DB_URI = os.environ.get('DB_URI', 'mongodb+srv://phoenix:Mongo.12345nht@cluster123.1mvajso.mongodb.net/?retryWrites=true&w=majority&appName=cluster123')
 if len(DB_URI) == 0:
     logging.error("DB_URI variable is missing! Exiting now")
     exit(1)
@@ -107,8 +107,8 @@ after joining
     await sticker_message.delete()
     user_mention = message.from_user.mention
     reply_message = f"<b>ᴡᴇʟᴄᴏᴍᴇ, {user_mention}</b>.\n\n<b>😎ɪ ᴀᴍ ᴀ ᴛᴇʀᴀʙᴏx ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ʙᴏᴛ🤖.\n \nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ🔗 ɪ ᴡɪʟʟ ᴅᴏᴡɴʟᴏᴀᴅ📥 ɪᴛ ᴡɪᴛʜɪɴ ғᴇᴡ sᴇᴄᴏɴᴅs🚀</b>."
-    #join_button = InlineKeyboardButton("ᴊᴏɪɴ😎 ", url="https://t.me/teraboxx_downloader")
-    #developer_button = InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url="https://t.me/Mr_V_bots")
+    #join_button = InlineKeyboardButton("ᴊᴏɪɴ😎 ", url="https://t.me/teraboxxdownloader")
+    #developer_button = InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url="https://t.me/Scorpsnights")
 
 
    
@@ -119,8 +119,8 @@ after joining
             InlineKeyboardButton(text="Hᴇʟᴘ🔍", callback_data="help")
         ],
         [
-            InlineKeyboardButton(text="ᴊᴏɪɴ😎", url="https://t.me/teraboxx_downloader"),
-            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url="https://t.me/Mr_V_bots"),
+            InlineKeyboardButton(text="ᴊᴏɪɴ😎", url="https://t.me/teraboxxdownloader"),
+            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url="https://t.me/Scorpsnights"),
         ],
         [
             InlineKeyboardButton(text="Cʟᴏsᴇ❌", callback_data="close")
@@ -142,8 +142,8 @@ buttons = InlineKeyboardMarkup([
             InlineKeyboardButton(text="Hᴇʟᴘ🔍", callback_data="help")
         ],
         [
-            InlineKeyboardButton(text="ᴊᴏɪɴ😎", url="https://t.me/teraboxx_downloader"),
-            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url="https://t.me/Mr_V_bots"),
+            InlineKeyboardButton(text="ᴊᴏɪɴ😎", url="https://t.me/teraboxxdownloader"),
+            InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url="https://t.me/Scorpsnights"),
         ],
         [
             InlineKeyboardButton(text="Cʟᴏsᴇ❌", callback_data="close")
@@ -156,7 +156,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>✑ Cʀᴇᴀᴛᴏʀ👨‍💻 : <a href='https://t.me/scorpio1252'>Tʜɪs Gᴜʏ</a>\n \n✑ Lᴀɴɢᴜᴀɢᴇ🗄 : <a>Pʏᴛʜᴏɴ</a>\n \n✑ Lɪʙʀᴀʀʏ🗃 : <a>Pʏʀᴏɢʀᴀᴍ</a>\n \n✑ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ📄 : <a href='https://t.me/c0nt4ct_bot'>Gᴇᴛ Hᴇʀᴇ</a>\n \n✑ Dᴇᴠ🪛 : <a href='https://t.me/Mr_V_bots'>Mʀ.V Bᴏᴛs</a></b>",
+            text = f"<b>✑ Cʀᴇᴀᴛᴏʀ👨‍💻 : <a href='https://t.me/Scorpsnights'>Tʜɪs Gᴜʏ</a>\n \n✑ Lᴀɴɢᴜᴀɢᴇ🗄 : <a>Pʏᴛʜᴏɴ</a>\n \n✑ Lɪʙʀᴀʀʏ🗃 : <a>Pʏʀᴏɢʀᴀᴍ</a>\n \n✑ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ📄 : <a href='https://t.me/c0nt4ct_bot'>Gᴇᴛ Hᴇʀᴇ</a>\n \n✑ Dᴇᴠ🪛 : <a href='https://t.me/Mr_V_bots'>Mʀ.V Bᴏᴛs</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -339,7 +339,7 @@ async def handle_message(client, message: Message):
         await message.reply_text("ᴘʟᴇᴀsᴇ sᴇɴᴅ ᴀ ᴠᴀʟɪᴅ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ.")
         return
 
-    reply_msg = await message.reply_text("⌛ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...")
+    reply_msg = await message.reply_text("⌛ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...🙈")
     
     try:
         file_path, thumbnail_path, video_title = await download_video(terabox_link, reply_msg, user_mention, user_id)
