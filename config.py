@@ -40,7 +40,7 @@ DB_URI = "mongodb+srv://phoenix:Mongo.12345nht@cluster123.1mvajso.mongodb.net/?r
 
 DB_NAME = "tbcluster"
 
-WAIT_MSG = "Please Wait.....🦄"
+WAIT_MSG = "Please Wait....."
 
 REPLY_ERROR = "Reply to a message"
 
@@ -53,7 +53,7 @@ LOG_TEXT = """#ɴᴇᴡ_ᴜꜱᴇʀ
 ◉ ᴜꜱᴇʀɴᴀᴍᴇ: @{uname}"""
 
 HELP_TXT = f"""<b>Hᴏᴡ ᴛᴏ Usᴇ?💡</b>
-\n<b>Jᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ғɪʀsᴛ ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀɴʏ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ🙈</b>
+\n<b>Jᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ғɪʀsᴛ ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀɴʏ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ</b>
 
 \n<b>Rᴇᴀsᴏɴ ғᴏʀ Dᴏᴡɴʟᴏᴀᴅ Fᴀɪʟᴇᴅ🚩</b>\n
    \n<b>♦ Mᴀʏ ʙᴇ ᴅᴜᴇ ᴛᴏ ᴛʜᴇ Fɪʟᴇ sɪᴢᴇ📁</b> 
