@@ -1,18 +1,18 @@
 import os
 import re
 
-BOT_TOKEN = ""
+BOT_TOKEN = "7458046887:AAHJ0_DHcI5-4CfwcyfCsVsTYecRE2EhPRI"
 
-TELEGRAM_API = ""
+TELEGRAM_API = "28192191"
 
-TELEGRAM_HASH = ""
+TELEGRAM_HASH = "663164abd732848a90e76e25cb9cf54a"
 
 id_pattern = re.compile(r'^.\d+$')
 
 ADMINS = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMINS', '').split()]
+        admin) else admin for admin in os.environ.get('ADMINS', '1676244457').split()]
 #Bot's usernmae without @
-BOT_USERNAME = ""
+BOT_USERNAME = "https://t.me/teraboxxdownloader"
 
 #KEYWORDS = ['nephobox', 'terabox', 'teraboxapp', '1024terabox', '1024tera']
 KEYWORDS = {
@@ -30,21 +30,21 @@ KEYWORDS = {
 
 FORCE_MSG = "ʜᴇʟʟᴏ 😊 {first}\n\n<b>Yᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ɪɴ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ Kɪɴᴅʟʏ Pʟᴇᴀsᴇ Jᴏɪɴ ᴍʏ Cʜᴀɴɴᴇʟ</b>"
 
-FSUB_ID = ""
+FSUB_ID = "-1002232462602"
 
 
 
-DUMP_CHAT_ID = ""
+DUMP_CHAT_ID = "-1002212612017"
 
-DB_URI = ""
+DB_URI = "mongodb+srv://phoenix:Mongo.12345nht@cluster123.1mvajso.mongodb.net/?retryWrites=true&w=majority&appName=cluster123"
 
 DB_NAME = "tbcluster"
 
-WAIT_MSG = "Please Wait....."
+WAIT_MSG = "Please Wait.....🦄"
 
 REPLY_ERROR = "Reply to a message"
 
-LOG_ID = ""
+LOG_ID = "-1002220732120"
 
 LOG_TEXT = """#ɴᴇᴡ_ᴜꜱᴇʀ
 
@@ -53,7 +53,7 @@ LOG_TEXT = """#ɴᴇᴡ_ᴜꜱᴇʀ
 ◉ ᴜꜱᴇʀɴᴀᴍᴇ: @{uname}"""
 
 HELP_TXT = f"""<b>Hᴏᴡ ᴛᴏ Usᴇ?💡</b>
-\n<b>Jᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ғɪʀsᴛ ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀɴʏ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ</b>
+\n<b>Jᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ғɪʀsᴛ ᴀɴᴅ ᴛʜᴇɴ sᴇɴᴅ ᴀɴʏ ᴛᴇʀᴀʙᴏx ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ🙈</b>
 
 \n<b>Rᴇᴀsᴏɴ ғᴏʀ Dᴏᴡɴʟᴏᴀᴅ Fᴀɪʟᴇᴅ🚩</b>\n
    \n<b>♦ Mᴀʏ ʙᴇ ᴅᴜᴇ ᴛᴏ ᴛʜᴇ Fɪʟᴇ sɪᴢᴇ📁</b> 
@@ -62,4 +62,4 @@ HELP_TXT = f"""<b>Hᴏᴡ ᴛᴏ Usᴇ?💡</b>
    \n<b>♦ Sᴇʀᴠᴇʀ ᴛɪᴍᴇᴏᴜᴛ ᴇʀʀᴏʀ</b>
    \n<b>♦ Eʀʀᴏʀ ᴡʜɪʟᴇ ɢᴇᴛᴛɪɴɢ ʀᴇsᴘᴏɴsᴇ ғʀᴏᴍ sᴇʀᴠᴇʀ</b>
 
-\n<b>ᴀɴʏ ɪssᴜᴇs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ᴠɪᴀ</b> @c0nt4ct_bot"""
+\n<b>ᴀɴʏ ɪssᴜᴇs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ᴠɪᴀ</b> @Feedsstore_Bot"""
