@@ -17,11 +17,11 @@ from status import format_progress_bar
 from video import download_video, upload_video
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1002249393777
-pyrogram.utils.MIN_CHANNEL_ID = -1002133701521
-pyrogram.utils.CHANNEL_ID = -1002133701521
-pyrogram.utils.MIN_CHANNEL_ID = -1002149484754
-pyrogram.utils.CHANNEL_ID = -1002149484754
+pyrogram.utils.MIN_CHANNEL_ID = -1002212612017
+pyrogram.utils.MIN_CHANNEL_ID = -1002220732120
+pyrogram.utils.CHANNEL_ID = 
+pyrogram.utils.MIN_CHANNEL_ID = -1002232462602
+pyrogram.utils.CHANNEL_ID = 
 
 load_dotenv('sconfig.env', override=True)
 logging.basicConfig(level=logging.INFO)
